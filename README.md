@@ -12,6 +12,12 @@ Add the desired script to your bookmarklet.
 
 ### [Convert OGP to Hugo Shortcut format](OGP2HugoShortcut.min.js)
 
+When run on any page, it will convert the OGP of that page into a shortcode of the form `{{< blogcard title=""" url="" image="">}}description{{{< /blogcard >}}`` and perform the following
+
+- Copy it to the clipboard.
+- Send it to an alert.
+- Output to cosole.log.
+
 Example run on GitHub.com.
 
 ```html
